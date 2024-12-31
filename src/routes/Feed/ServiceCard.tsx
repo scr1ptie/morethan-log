@@ -1,6 +1,6 @@
 import { CONFIG } from "site.config"
 import React from "react"
-import { AiFillCodeSandboxCircle } from "react-icons/ai"
+import { AiFillCodeSandboxCircle } from "react-icons/ai";
 import { TbFileCv } from "react-icons/tb";
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
