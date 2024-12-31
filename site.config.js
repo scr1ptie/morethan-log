@@ -1,6 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
+    url: "https://scriptie-blog.vercel.app",
     name: "scriptie",
     image: "/pin.ico", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Programmer in Security",

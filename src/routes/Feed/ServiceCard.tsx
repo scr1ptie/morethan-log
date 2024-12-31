@@ -25,9 +25,8 @@ const ServiceCard: React.FC = () => {
         ))}
         {CONFIG.profile.resume && (
           <a
-            href={`${CONFIG.link}${CONFIG.profile.resume}`}
+            href={`${CONFIG.profile.url}${CONFIG.profile.resume}`}
             rel="noreferrer"
-            target="_blank"
           >
             <AiOutlineFilePdf className="icon" />
             <div className="name">My Resume</div>
