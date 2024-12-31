@@ -19,7 +19,7 @@ const ServiceCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillCodeSandboxCircle className="icon" />
+            <AiOutlineFilePdf className="icon" />
             <div className="name">{project.name}</div>
           </a>
         ))}
