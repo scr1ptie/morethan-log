@@ -25,7 +25,7 @@ const ServiceCard: React.FC = () => {
         ))}
         {CONFIG.profile.resume && (
           <a
-            href={`${CONFIG.link}${CONFIG.profile.resume}`}
+            href={`${CONFIG.url}${CONFIG.profile.resume}`}
             rel="noreferrer"
             target="_blank"
           >
