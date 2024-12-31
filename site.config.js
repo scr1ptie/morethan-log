@@ -9,6 +9,7 @@ const CONFIG = {
     linkedin: "",
     github: "scr1ptie",
     instagram: "",
+    resume:"/resume"
   },
   projects: [
     {
