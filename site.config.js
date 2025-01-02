@@ -10,7 +10,8 @@ const CONFIG = {
     linkedin: "",
     github: "scr1ptie",
     instagram: "",
-    resume:"/resume"
+    resume:"/resume",
+    refresh:"1"
   },
   projects: [
     {
