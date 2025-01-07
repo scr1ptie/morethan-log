@@ -11,7 +11,7 @@ const CONFIG = {
     github: "scr1ptie",
     instagram: "",
     resume:"/resume",
-    refresh:"0"
+    refresh:"1"
   },
   projects: [
     {
