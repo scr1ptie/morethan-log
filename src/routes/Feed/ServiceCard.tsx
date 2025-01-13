@@ -1,7 +1,7 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import { AiFillCodeSandboxCircle, AiOutlineFilePdf } from "react-icons/ai"
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si"
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
 
