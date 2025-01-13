@@ -1,6 +1,7 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import { AiFillCodeSandboxCircle, AiOutlineFilePdf } from "react-icons/ai"
+import { SiLeetcode } from "react-icons/si"
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
 
@@ -23,6 +24,15 @@ const ServiceCard: React.FC = () => {
             <div className="name">{project.name}</div>
           </a>
         ))}
+        {CONFIG.profile.resume && (
+          <a
+            href={"https://leetcode.com/u/0xscriptie/"}
+            rel="noreferrer"
+          >
+            <SiLeetcode className="icon" />
+            <div className="name">LeetCode Profile</div>
+          </a>
+        )}
         {CONFIG.profile.resume && (
           <a
             href={`${CONFIG.profile.url}${CONFIG.profile.resume}`}
