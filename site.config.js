@@ -7,7 +7,7 @@ const CONFIG = {
     role: "Programmer in Security",
     bio: "Problem Solver",
     email: "noorit2515@gmail.com",
-    linkedin: "https://www.linkedin.com/in/noormohamed1/",
+    linkedin: "noormohamed1",
     github: "scr1ptie",
     leetcode: "https://leetcode.com/u/0xscriptie/",
     resume:"/resume",
