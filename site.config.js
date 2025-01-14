@@ -9,9 +9,10 @@ const CONFIG = {
     email: "scriptie@gmail.com",
     linkedin: "",
     github: "scr1ptie",
-    instagram: "",
+    leetcode: "https://leetcode.com/u/0xscriptie/",
     resume:"/resume",
-    refresh:"1"
+    refresh:"1",
+    instagram: "",
   },
   projects: [
     {
