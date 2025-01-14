@@ -1,6 +1,6 @@
 import { CONFIG } from "site.config"
 import React from "react"
-import { AiFillCodeSandboxCircle, AiOutlineFilePdf } from "react-icons/ai"
+import { AiFillCodeSandboxCircle, AiOutlineFilePdf, AiOutlineGithub } from "react-icons/ai"
 import { SiLeetcode } from "react-icons/si"
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
@@ -10,9 +10,19 @@ const ServiceCard: React.FC = () => {
   return (
     <>
       <StyledTitle>
-        <Emoji>🌟</Emoji> Service
+        <Emoji>🔮</Emoji> Platforms
       </StyledTitle>
       <StyledWrapper>
+        {CONFIG.profile.github && (
+          <a
+            href={`https://github.com/${CONFIG.profile.github}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineGithub className="icon" />
+            <div className="name">github</div>
+          </a>
+        )}
         {CONFIG.projects.map((project, idx) => (
           <a
             key={idx}
