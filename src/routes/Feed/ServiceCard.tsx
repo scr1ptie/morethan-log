@@ -13,36 +13,6 @@ const ServiceCard: React.FC = () => {
         <Emoji>🔮</Emoji> Platforms
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.github && (
-          <a
-            href={`https://github.com/${CONFIG.profile.github}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
-          </a>
-        )}
-        {CONFIG.projects.map((project, idx) => (
-          <a
-            key={idx}
-            href={`${project.href}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{project.name}</div>
-          </a>
-        ))}
-        {CONFIG.profile.resume && (
-          <a
-            href={"https://leetcode.com/u/0xscriptie/"}
-            rel="noreferrer"
-          >
-            <SiLeetcode className="icon" />
-            <div className="name">LeetCode Profile</div>
-          </a>
-        )}
         {CONFIG.profile.resume && (
           <a
             href={`${CONFIG.profile.url}${CONFIG.profile.resume}`}
@@ -52,6 +22,36 @@ const ServiceCard: React.FC = () => {
             <div className="name">My Resume</div>
           </a>
         )}
+        {CONFIG.profile.github && (
+          <a
+            href={`https://github.com/${CONFIG.profile.github}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineGithub className="icon" />
+            <div className="name">My Github</div>
+          </a>
+        )}
+        {CONFIG.profile.leetcode && (
+          <a
+            href={`${CONFIG.profile.leetcode}`}
+            rel="noreferrer"
+          >
+            <SiLeetcode className="icon" />
+            <div className="name">LeetCode Profile</div>
+          </a>
+        )}
+        {CONFIG.projects.map((project, idx) => (
+          <a
+            key={idx}
+            href={`${profile.site}/HTB-Academy-Transcript.pdf`}
+            rel="noreferrer"
+{/*             target="_blank" */}
+          >
+            <AiFillCodeSandboxCircle className="icon" />
+            <div className="name">HTB Academy Transcript</div>
+          </a>
+        ))}
       </StyledWrapper>
     </>
   )
