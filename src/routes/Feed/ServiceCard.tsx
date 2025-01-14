@@ -44,7 +44,7 @@ const ServiceCard: React.FC = () => {
         {CONFIG.projects.map((project, idx) => (
           <a
             key={idx}
-            href={`${profile.site}/HTB-Academy-Transcript.pdf`}
+            href={`${project.site}/HTB-Academy-Transcript.pdf`}
             rel="noreferrer"
           >
             <AiFillCodeSandboxCircle className="icon" />
