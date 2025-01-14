@@ -46,6 +46,7 @@ const ServiceCard: React.FC = () => {
             key={idx}
             href={`${project.site}/HTB-Academy-Transcript.pdf`}
             rel="noreferrer"
+            target="_blank"
           >
             <AiFillCodeSandboxCircle className="icon" />
             <div className="name">HTB Academy Transcript</div>
