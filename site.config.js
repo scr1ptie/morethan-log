@@ -17,6 +17,7 @@ const CONFIG = {
     {
       name: `scriptie`,
       href: "https://github.com/scr1ptie",
+      site: "https://scriptie-blog.vercel.app",
     },
   ],
   // blog setting (required)
