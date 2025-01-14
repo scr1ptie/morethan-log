@@ -6,8 +6,8 @@ const CONFIG = {
     image: "/pfp.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Programmer in Security",
     bio: "Problem Solver",
-    email: "scriptie@gmail.com",
-    linkedin: "",
+    email: "noorit2515@gmail.com",
+    linkedin: "https://www.linkedin.com/in/noormohamed1/",
     github: "scr1ptie",
     leetcode: "https://leetcode.com/u/0xscriptie/",
     resume:"/resume",
