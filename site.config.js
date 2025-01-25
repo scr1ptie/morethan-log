@@ -11,7 +11,7 @@ const CONFIG = {
     github: "scr1ptie",
     leetcode: "https://leetcode.com/u/0xscriptie/",
     resume:"/resume",
-    refresh:"1",
+    refresh:"0",
     instagram: "",
   },
   projects: [
