@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     url: "https://scriptie-blog.vercel.app",
     name: "scriptie",
-    image: "/bloodhound_box.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/pfp.ico", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Programmer in Security",
     bio: "Problem Solver",
     email: "noorit2515@gmail.com",
