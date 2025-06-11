@@ -23,8 +23,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "scriptie's crib",
-    description: "welcome to scriptie's Blog!",
+    title: "Scriptie's Security Blog",
+    description: "welcome to Scriptie's security blog!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
